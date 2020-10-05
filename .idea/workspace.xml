@@ -19,7 +19,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercice.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../c04-ch6-2-exercices-mathildebrosseau/exercice.py" />
   </component>
   <component name="RunManager">
     <configuration name="exercice" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -53,7 +53,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601423345008</updated>
-      <workItem from="1601423346948" duration="680000" />
+      <workItem from="1601423346948" duration="704000" />
+      <workItem from="1601935516881" duration="200000" />
+      <workItem from="1601936482320" duration="71000" />
+      <workItem from="1601941968783" duration="74000" />
     </task>
     <servers />
   </component>
@@ -65,26 +68,27 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="219" y="58" width="1097" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601423378018" />
-    <state x="495" y="123" key="FileChooserDialogImpl" timestamp="1601423377001">
+    <state x="495" y="123" key="FileChooserDialogImpl" timestamp="1601941989730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="495" y="123" key="FileChooserDialogImpl/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601423377001" />
-    <state width="1481" height="195" key="GridCell.Tab.0.bottom" timestamp="1601424013988">
+    <state x="495" y="123" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601941989730" />
+    <state width="1481" height="195" key="GridCell.Tab.0.bottom" timestamp="1601424051441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601424013988" />
-    <state width="1481" height="195" key="GridCell.Tab.0.center" timestamp="1601424013987">
+    <state width="1481" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601424051441" />
+    <state width="1481" height="195" key="GridCell.Tab.0.center" timestamp="1601424051441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="195" key="GridCell.Tab.0.center/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601424013987" />
-    <state width="1481" height="195" key="GridCell.Tab.0.left" timestamp="1601424013987">
+    <state width="1481" height="195" key="GridCell.Tab.0.center/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601424051441" />
+    <state width="1481" height="195" key="GridCell.Tab.0.left" timestamp="1601424051441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="195" key="GridCell.Tab.0.left/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601424013987" />
-    <state width="1481" height="195" key="GridCell.Tab.0.right" timestamp="1601424013987">
+    <state width="1481" height="195" key="GridCell.Tab.0.left/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601424051441" />
+    <state width="1481" height="195" key="GridCell.Tab.0.right" timestamp="1601424051441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="195" key="GridCell.Tab.0.right/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601424013987" />
+    <state width="1481" height="195" key="GridCell.Tab.0.right/0.0.1536.824/1920.-260.1920.1040@0.0.1536.824" timestamp="1601424051441" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/c04_ch6_exercices_2_mathildebrosseau$exercice.coverage" NAME="exercice Coverage Results" MODIFIED="1601424013973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
