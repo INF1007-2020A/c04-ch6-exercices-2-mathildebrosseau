@@ -1,80 +1,9 @@
-test_color_name_to_hex (__main__.TestExercice) ... FAIL
-test_compute_mse (__main__.TestExercice) ... FAIL
-test_create_list (__main__.TestExercice) ... FAIL
-test_list_to_dict (__main__.TestExercice) ... FAIL
-
-======================================================================
-FAIL: test_color_name_to_hex (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 39, in test_color_name_to_hex
-    'Mauvaise reponse'
-AssertionError: Lists differ: [[('0x0', 'blue'), ('0x1', 'red'), ('0x2', 'g[130 chars]n')]] != [[('blue', '#0000FF'), ('red', '#FF0000'), ('[170 chars]A')]]
-
-First differing element 0:
-[('0x0', 'blue'), ('0x1', 'red'), ('0x2', 'g[57 chars]te')]
-[('blue', '#0000FF'), ('red', '#FF0000'), ('[81 chars]FF')]
-
-- [[('0x0', 'blue'),
--   ('0x1', 'red'),
--   ('0x2', 'green'),
--   ('0x3', 'yellow'),
--   ('0x4', 'black'),
--   ('0x5', 'white')],
--  [('0x0', 'orange'), ('0x1', 'blue'), ('0x2', 'red'), ('0x3', 'brown')]]
-+ [[('blue', '#0000FF'),
-+   ('red', '#FF0000'),
-+   ('green', '#008000'),
-+   ('yellow', '#FFFF00'),
-+   ('black', '#000000'),
-+   ('white', '#FFFFFF')],
-+  [('orange', '#FFA500'),
-+   ('blue', '#0000FF'),
-+   ('red', '#FF0000'),
-+   ('brown', '#A52A2A')]] : Mauvaise reponse
-
-======================================================================
-FAIL: test_compute_mse (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 65, in test_compute_mse
-    'Erreur dans le calcul des MSE'
-AssertionError: {} != {'LR': 220.6, 'DNN': 14.0, 'RF': 1681.8}
-- {}
-+ {'DNN': 14.0, 'LR': 220.6, 'RF': 1681.8} : Erreur dans le calcul des MSE
-
-======================================================================
-FAIL: test_create_list (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 51, in test_create_list
-    'Mauvaise reponse'
-AssertionError: Lists differ: [] != [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,[57248 chars]9999]
-
-Second list contains 9664 additional elements.
-First extra element 0:
-0
-
-Diff is 86292 characters long. Set self.maxDiff to None to see it. : Mauvaise reponse
-
-======================================================================
-FAIL: test_list_to_dict (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 25, in test_list_to_dict
-    'Mauvaise reponse'
-AssertionError: Lists differ: [{0: 'a', 1: 'b', 2: 'z', 3: 'patate'}, {0:[33 chars]re'}] != [{'a': 0, 'b': 1, 'z': 2, 'patate': 3}, {'a[33 chars]: 3}]
-
-First differing element 0:
-{0: 'a', 1: 'b', 2: 'z', 3: 'patate'}
-{'a': 0, 'b': 1, 'z': 2, 'patate': 3}
-
-- [{0: 'a', 1: 'b', 2: 'z', 3: 'patate'},
--  {0: 'a', 1: '2', 2: 'hello', 3: 'tigre'}]
-+ [{'a': 0, 'b': 1, 'patate': 3, 'z': 2},
-+  {'2': 1, 'a': 0, 'hello': 2, 'tigre': 3}] : Mauvaise reponse
+test_color_name_to_hex (__main__.TestExercice) ... ok
+test_compute_mse (__main__.TestExercice) ... ok
+test_create_list (__main__.TestExercice) ... ok
+test_list_to_dict (__main__.TestExercice) ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.077s
+Ran 4 tests in 0.002s
 
-FAILED (failures=4)
+OK
